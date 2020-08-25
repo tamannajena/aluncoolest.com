@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ 
+</head>
+<body>
+<h1> Sairam </h1>
+<h2> Sonal </h2>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+ <!--For Navigation Bar -->
+ 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Sanatan Dharm</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">  <!--For position on left/right of Navigation Bar -->
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="courses.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Courses
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="">Little coolness</a>
+          <a class="dropdown-item" href="#">Coolness</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Even more coolness</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="false">Enabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+ <style>  <!--For size of images -->
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+
+	
+<!--For 3 Carousels images -->
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/a.jpg" alt="Los Angeles" width="100%" height="500">
+      <div class="carousel-caption">
+        <h3>Sun</h3>
+        <p>Ultimate form of God</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/b.jpg" alt="Chicago" width="100%" height="500">
+      <div class="carousel-caption">
+        <h3>Kalpataru</h3>
+        <p>Divinity everywhere!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/c.jpg" alt="New York" width="100%" height="500">
+      <div class="carousel-caption">
+        <h3>Mansoarovar</h3>
+        <p>Mystic and Beautiful!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  
+  
+</div>
+
+  <section class="my-5">
+     <div class="py-5">  <!--For deleting the scroll bar on the website page-->
+      <h3 class= "text-center">About Us</h3>
+      </div>
+       <div class= "container-fluid">
+  <div class= "row">
+    <div class = "col-lg-6 col-md-6 col-12">
+      <img src="images/c.jpg" class = "img-fluid aboutimg">
+       </div>
+	   <div class = "col-lg-6 col-md-6 col-12">
+	   <h2 class = "display-4"></h2>
+      <h3> Let us empower everyone </h3> <!--For making grid-->
+	  <p>Shirdi SaiBaba remains a popular saint and is worshipped mainly in Maharashtra, Andhra Pradesh, Gujarat, Karnataka and of course world over. Debate on his Hindu or Muslim origins continues to take place. He is also revered by several notable Hindu and Sufi religious leaders. Some of his disciples received fame as spiritual figures and saints.
+	  </p>
+	  <a href= "about.php" class="btn btn-success"> Check more </a> <!--For making button for link "Check More"-->
+	  
+	  <style>
+	  .aboutimg{
+	  width: 100%;
+	  height:250px!important;
+	  }
+	  </style>
+          </div>
+               </div>
+			   
+			    <section class="my-5">
+     <div class="py-5">  <!--For deleting the scroll bar on the website page-->
+      <h3 class= "text-center"> Our Services</h3>
+      </div>
+	  <div class="container-fluid"> 
+	  <div class= "row"> <!--For first grid on the services section page-->
+	  
+	    <div class = "col-lg-4 col-md-4 col-12">
+	        <div class="card" >
+  <img class="card-img-top" src="images/b.jpg" alt="Card image">
+            <div class="card-body">
+    <h4 class="card-title">Tina the great </h4>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+	
+	
+  </div>
+</div>
+
+
+	  
+	  </div>  <!--For second grid on the services section page-->
+	  
+	  <div class = "col-lg-4 col-md-4 col-12">
+	        <div class="card" >
+  <img class="card-img-top" src="images/b.jpg" alt="Card image">
+            <div class="card-body">
+    <h4 class="card-title">Tina the great </h4>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+	
+	
+  </div>
+</div>
+
+
+	  
+	  </div> <!--For Third grid on the services section page-->
+	  
+	  <div class = "col-lg-4 col-md-4 col-12">
+	        <div class="card" >
+  <img class="card-img-top" src="images/b.jpg" alt="Card image">
+            <div class="card-body">
+    <h4 class="card-title">Tina the great </h4>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+	
+	
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--Services Ends Here -->
+
+<!--For Gallery  -->
+  <section class="my-5">
+     <div class="py-5">  
+      <h3 class= "text-center"> Gallery</h3>
+	  <div class="container-fluid">
+	  <div class="row">
+	  <div class="col-lg-4 col-md-4 col-12">
+	  <img src= "images/b.jpg" class= "img-fluid pb-7">
+	  
+	  </div>
+	  <div class="col-lg-4 col-md-4 col-12">
+	  <img src= "images/b.jpg" class= "img-fluid pb-4">
+	  
+	  </div><div class="col-lg-4 col-md-4 col-12">
+	  <img src= "images/b.jpg" class= "img-fluid pb-4">
+	  
+	  </div><div class="col-lg-4 col-md-4 col-12">
+	  <img src= "images/b.jpg" class= "img-fluid pb-4">
+	  
+	  </div><div class="col-lg-4 col-md-4 col-12">
+	  <img src= "images/b.jpg" class= "img-fluid pb-4">
+	  
+	  </div><div class="col-lg-4 col-md-4 col-12">
+	  <img src= "images/b.jpg" class= "img-fluid pb-4">
+	  
+	  </div><div class="col-lg-4 col-md-4 col-12">
+	  <img src= "images/b.jpg" class= "img-fluid pb-4">
+	  
+	  </div><div class="col-lg-4 col-md-4 col-12">
+	  <img src= "images/b.jpg" class= "img-fluid pb-4">
+	  
+	  </div><div class="col-lg-4 col-md-4 col-12">
+	  <img src= "images/b.jpg" class= "img-fluid pb-4">
+	  
+	  </div>
+	  </div>
+	  
+	  
+	  
+      </div>
+	  </div>
+	   <!--For FORMS -->
+	  
+	  <section class="my-5">
+     <div class="py-5">  <!--For deleting the scroll bar on the website page-->
+      <h3 class= "text-center"> Our Services</h3>
+      </div>
+     <div	  class="w-50 m-auto"> <!--For sizing the user intake form-->
+	  <form action="userinfo.php" method="post"
+	  <div class= "form-group">
+	  <label>Username </label>
+	  <input type= "text" name= "user" autocomplete="off" class="form-control" required>
+	  </div>
+	  <div	  class="w-50 m-auto">
+	   <div class= "form-group">
+	  <label>Email </label>
+	  <input type= "text" name= "email" autocomplete="off" class="form-control" required>
+	  </div>
+	  
+	   <div class= "form-group">
+	  <label>Mobile </label>
+	  <input type= "text" name= "mobile" autocomplete="off" class="form-control" required>
+	  </div>
+	  
+	  <div class= "form-group">
+	  <label>Comments </label>
+	  <textarea class = "form-control" name="comments"> 
+	  </textarea>
+	  
+	  </div>
+	  <button type="submit" class="btn btn-success">Submit
+	  </button>
+
+	  <footer>
+	  
+	  <p class= "p-3 bg-dark text-white">@SairamNamah </p>
+	  </footer>
+	  <div>
+	  
+	  </div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  </section>
+
+	  
+	  </div>
+	  </div>
+	  </div>
+	  </div>
+	 
+	  
+
+</section>
+<style>
+</style>
+<body>
+</body>
+
+
+
+</html>
